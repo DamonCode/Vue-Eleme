@@ -6,7 +6,7 @@
       I am content
     </div>
 </template>
-<script>
+<script type="text/ecmascript-6">
 import header from './components/header/header.vue';
 import tab from './components/tab.vue';
 const ERR_OK = 0;
