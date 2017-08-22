@@ -1,10 +1,9 @@
 <template>
   <div>
-    <v-header v-bind:seller="seller"></v-header> 
+    <v-header :seller="seller"></v-header> 
     <v-tab></v-tab>
-    <div class="content">
-      I am content
-    </div>
+    <router-view></router-view>
+
 </template>
 <script type="text/ecmascript-6">
 import header from './components/header/header.vue';

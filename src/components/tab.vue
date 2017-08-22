@@ -2,13 +2,13 @@
   <div class="tab border-1px">
       <div class="tab-items">
           <a v-link="{path:'/goods'}">商品</a>
-          </div>
+      </div>
       <div class="tab-items">
-          <a v-link="{path:'/ratings'}">评价</a></div>
+          <a v-link="{path:'/ratings'}">评价</a>
+      </div>
       <div class="tab-items">
           <a v-link="{path:'/seller'}">商家</a>
       </div>
-      <router-view></router-view>
   </div>
 </template>
 <script type="text/ecmascript-6">
